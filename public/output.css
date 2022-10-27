@@ -661,44 +661,20 @@ video {
   margin-top: 55px;
 }
 
-.mt-2 {
-  margin-top: 0.5rem;
+.mt-\[50px\] {
+  margin-top: 50px;
 }
 
 .mt-5 {
   margin-top: 1.25rem;
 }
 
-.mt-10 {
-  margin-top: 2.5rem;
-}
-
-.mt-\[50px\] {
-  margin-top: 50px;
-}
-
-.mt-\[38px\] {
-  margin-top: 38px;
-}
-
-.mt-4 {
-  margin-top: 1rem;
-}
-
-.ml-3 {
-  margin-left: 0.75rem;
-}
-
-.mt-3 {
-  margin-top: 0.75rem;
-}
-
-.mt-8 {
-  margin-top: 2rem;
-}
-
 .mt-\[40px\] {
   margin-top: 40px;
+}
+
+.mt-10 {
+  margin-top: 2.5rem;
 }
 
 .mt-\[36px\] {
@@ -707,6 +683,10 @@ video {
 
 .flex {
   display: flex;
+}
+
+.grid {
+  display: grid;
 }
 
 .h-\[114px\] {
@@ -733,18 +713,6 @@ video {
   height: 220px;
 }
 
-.h-\[374px\] {
-  height: 374px;
-}
-
-.h-\[354px\] {
-  height: 354px;
-}
-
-.h-\[364px\] {
-  height: 364px;
-}
-
 .h-\[360px\] {
   height: 360px;
 }
@@ -755,6 +723,10 @@ video {
 
 .h-\[68px\] {
   height: 68px;
+}
+
+.h-auto {
+  height: auto;
 }
 
 .w-\[1110px\] {
@@ -809,6 +781,10 @@ video {
   width: 540px;
 }
 
+.w-1\/2 {
+  width: 50%;
+}
+
 .max-w-max {
   max-width: -webkit-max-content;
   max-width: -moz-max-content;
@@ -839,20 +815,28 @@ video {
   justify-content: space-between;
 }
 
-.justify-around {
-  justify-content: space-around;
-}
-
 .gap-8 {
   gap: 2rem;
 }
 
-.gap-5 {
-  gap: 1.25rem;
+.gap-4 {
+  gap: 1rem;
 }
 
-.gap-y-5 {
-  row-gap: 1.25rem;
+.gap-24 {
+  gap: 6rem;
+}
+
+.gap-6 {
+  gap: 1.5rem;
+}
+
+.gap-3 {
+  gap: 0.75rem;
+}
+
+.gap-5 {
+  gap: 1.25rem;
 }
 
 .rounded-\[27px\] {
@@ -957,11 +941,6 @@ video {
   padding-right: 36px;
 }
 
-.py-\[14\] {
-  padding-top: 14;
-  padding-bottom: 14;
-}
-
 .py-\[14px\] {
   padding-top: 14px;
   padding-bottom: 14px;
@@ -1011,8 +990,8 @@ video {
   padding-right: 0.5rem;
 }
 
-.pt-2 {
-  padding-top: 0.5rem;
+.pt-\[73px\] {
+  padding-top: 73px;
 }
 
 .text-center {
@@ -1183,4 +1162,9 @@ video {
 .text-\[\#151617\] {
   --tw-text-opacity: 1;
   color: rgb(21 22 23 / var(--tw-text-opacity));
+}
+
+.text-\[\#D9DBE1\] {
+  --tw-text-opacity: 1;
+  color: rgb(217 219 225 / var(--tw-text-opacity));
 }
