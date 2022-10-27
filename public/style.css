@@ -1,0 +1,38 @@
+@font-face {
+    font-family: inter;
+    src: url('font/Inter/Inter-VariableFont_slnt\,wght.ttf');
+}
+@font-face {
+    font-family: playfair;
+    src: url('font/playfair-display-v30-latin/playfair-display-v30-latin-regular.ttf');
+}
+@font-face {
+    font-family: plusjakarya;
+    src: url('font/Plus_Jakarta_Sans/PlusJakartaSans-VariableFont_wght.ttf');
+}
+@font-face {
+    font-family: poppins;
+    src: url('font/Poppins/Poppins-Medium.ttf');
+}
+@font-face {
+    font-family: poppinsbold;
+    src: url('font/Poppins/Poppins-Bold.ttf');
+}
+
+.fontinter{
+    font-family: inter;
+}
+.fontplayfair{
+    font-family: playfair;
+}
+.fontplusjakarya{
+    font-family: plusjakarya;
+}
+.fontpoppins{
+    font-family: poppins;
+}
+.fontpoppinsbold{
+    font-family: poppinsbold;
+}
+
+
